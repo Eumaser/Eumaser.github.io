@@ -1,0 +1,154 @@
+body{
+
+  background-color: #fff;
+  font-family: 'Raleway', Tahoma;
+  font-size: 14px;
+}
+
+
+
+
+#myname{
+  font-weight: bold;
+  color: #2F8E4A;
+}
+
+#navbar{
+  background-color: #2c3e50;
+  color: #fff;
+
+}
+
+#intro{
+  padding: 8em;
+  background-color: #d24d57;
+  background-image: url("../images/bg2_test.jpg");
+  background-position: right top;
+    background-attachment: fixed;
+  color: white;
+}
+
+
+#portfolio{
+  padding: 8em;
+  margin-bottom: 10px;
+}
+
+#about{
+  background-color: #39894F;
+  color:white;
+  padding: 8em;
+}
+
+#id-edr{
+  border-bottom: 5px solid #d24d57;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+#contact{
+  padding: 8em;
+}
+
+#footers{
+  padding: 8em;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+#secondary-link{
+  list-style: none;
+  padding: 0px;
+  margin: 10px;
+}
+
+#secondary-link > li{
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#mypic{
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.gray{
+  -webkit-filter: grayscale(0.7);
+          filter:grayscale(0.7);
+}
+
+  .gray:hover{
+    -webkit-filter: grayscale(0);
+            filter:grayscale(0);
+  }
+
+.picture,
+.images{
+  margin-bottom: 10px;
+}
+
+.btn-desc{
+  margin-bottom: 10px;
+}
+
+.git{
+  margin-top: 10px;
+}
+
+.collapse-desc{
+    margin-top: 10px;
+}
+
+.card-skills{
+  color:#000000;
+  margin-bottom: 10px;
+}
+
+.maxxing{
+  max-height: 100px;
+}
+
+.contact-icon{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+
+.profiles>p{
+  font-size: 1.4em;
+}
+
+@media only screen and (max-width: 600px) {
+  #portfolio,
+  #about,
+
+  #footers,
+  #contact{
+    padding: 1em;
+  }
+
+    #intro{
+      padding: 1.25em
+    }
+
+  .intro-contain{
+    margin-top: 4em;
+  }
+
+  .maxxing{
+    max-height: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+  #portfolio,
+  #about,
+  #footers,
+  #contact{
+    padding: 1.2em;
+  }
+
+}
