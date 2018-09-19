@@ -1,10 +1,396 @@
-
-<html>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 	<head>
-		<title>TEST</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/site.css">
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon"/>
+		<title>EDR</title>
 	</head>
-	
 	<body>
-		<h1>HELLO WORLD</h1>
+
+				<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="navbar">
+						<div class="container">
+							<a class="navbar-brand" href="#">EDR</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+								<div class="collapse navbar-collapse" id="navbarText">
+									<ul class="navbar-nav ml-auto">
+										<li class="nav-item active">
+											<a class="nav-link" href="#portfolio" id="nav-portfolio">Portfolio <span class="sr-only">(current)</span></a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#about" id="nav-about">About</a>
+										</li>
+										<li class="nav-item">
+											<a class="nav-link" href="#footers" id="nav-footer">Contact</a>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+					</nav>
+
+
+					<section id="intro">
+						<div class="container intro-contain text-center">
+
+							<h1 class="intro-name">
+								Hello, I'm
+								<span id="myname">
+									 Eumer Joseph Ramos
+								</span>
+							</h1>
+							<br>
+							<h2 class="intro-name">
+								I'm a Web Developer.
+							</h2>
+
+						</div>
+					</section>
+
+					<section id="portfolio">
+						<div class="container portfolio-contain">
+							<div class="text-center">
+								<p>
+									<h1>Portfolio</h1>
+								</p>
+								<p>
+									<h4>Listed below are some of the projects that I worked on as a Web Developer</h4>
+								</p>
+							</div>
+
+							<div class="list-port">
+								<div class="row">
+
+									<div class="col-md-4">
+
+										<div class="images">
+											<a href="images/basic.jpg" target="_blank">
+												<img src="images/basic.jpg" alt="" class="img-fluid">
+											</a>
+										</div>
+
+
+										<button type="button" data-toggle="collapse" href="#basic-desc" class="btn btn-primary btn-block btn-desc">Description</button>
+
+										<div class="collapse collapse-desc" id="basic-desc">
+												<div class="card card-body">
+														<p>
+															A personal project that I created for collecting all the animes that I have watch. It was created using Yii2 basic.
+															EDR-Archives can save, update or delete any saved data from the database. No Authentication though.
+														</p>
+														<div class="">
+															<a href="https://edrdemo.000webhostapp.com/EDR-Archives/web/index.php" target="_blank">Link</a>
+
+															<a href="https://github.com/Eumaser/EDR-Archives"  target="_blank">	 Github</a>
+
+														</div>
+												</div>
+										</div>
+
+
+
+
+									</div>
+
+									<div class="col-md-4">
+										<div class="images">
+											<a href="images/techelm.jpg" target="_blank">
+													<img src="images/techelm.jpg" alt="" class="img-fluid">
+											</a>
+										</div>
+											<button type="button" data-toggle="collapse" href="#techelm-desc" class="btn btn-primary btn-block btn-desc">Description</button>
+
+											<div class="collapse collapse-desc" id="techelm-desc">
+													<div class="card card-body">
+														<p>
+															One of the projects that I worked as a web developer. It was created using the Yii2 advance.. I coordinated with a mobile team where I created the
+															used for its mobile application. API that I created are mostly retrieving list of records, update content and delete records.
+														</p>
+
+													</div>
+											</div>
+
+
+									</div>
+
+									<div class="col-md-4">
+										<div class="images">
+											<a href="images/jack.jpg" target="_blank">
+													<img src="images/jack.jpg" alt="" class="img-fluid">
+											</a>
+										</div>
+											<button type="button"  data-toggle="collapse" href="#jack-desc"  class="btn btn-primary btn-block btn-desc">Description</button>
+
+											<div class="collapse collapse-desc" id="jack-desc">
+													<div class="card card-body">
+														<p>
+															A CMS project created using wordpress. I was tasked with adding a search functionality where users can filter records based on the filter input from the
+															backend CRM. Since the backend CRM cannot be accessed by guest users, this was created to allow guest to search anad inquire to the admin.
+														</p>
+														<a href="http://jackfocus.com.sg/maids/" target="_blank">Link</a>
+													</div>
+											</div>
+
+
+
+									</div>
+
+								</div>
+							</div>
+
+						</div>
+					</section>
+
+					<section id="about">
+
+						<div class="container">
+
+							<div class="row justify-content-center pb-4 pb-lg-5">
+								<div class="col-lg-6 text-center">
+									<h1 id="id-edr">About EDR</h1>
+								</div>
+							</div>
+
+
+							<div class="row picture">
+								<div class="col-md-4">
+										<img src="images/profile.jpg" alt="" class="img-fluid img-thumbnail gray" id="mypic">
+								</div>
+								<div class="col-md-8 profiles">
+									<p>
+										Eumer Joseph Ramos started as a software application developer and worked for 5 years before leaving the industry.
+										Later on, he started learning web development due to opportunity it gives in the industry and focused more on backend development
+										with little experience on website designing.
+									</p>
+
+									<p>
+										He has also taken an interest in learning new web programming language and has started learning ruby to broaden his skills. He also
+										desires to learn frontend technologies, mostly AngularJS and has taken baby steps learning SASS.
+									</p>
+									<p>
+										Besides web development, Eumer prefers sleeping and playing video games as a hobby and to relieve his boredom and stress.
+										He also prefer coffee over tea.
+									</p>
+								</div>
+							</div>
+
+							<div class="row">
+									<div class="col-sm-12 col-md-12">
+
+										<div class="card card-skills">
+												<h2 class="card-header">HTML</h2>
+											<div class="card-body">
+
+												<div class="row">
+													<div class="col-sm-12 col-md-2 text-center">
+															<img src="images/html5.png" alt="" class="img-fluid maxxing">
+															<h6 class="">HTML5</h6>
+													</div>
+
+												</div>
+
+											</div>
+										</div>
+
+										<div class="card card-skills">
+												<h2 class="card-header">CSS</h2>
+											<div class="card-body">
+
+													<div class="row">
+														<div class="col-sm-12 col-md-2 text-center">
+																<img src="images/css3.png" alt="" class="img-fluid maxxing">
+																<br>
+																<h6>CSS3</h6>
+														</div>
+														<div class="col-sm-12 col-md-2 text-center">
+																	<img src="images/bootstrap4.png" alt="" class="img-fluid maxxing">
+																	<br>
+																	<h6>Bootstrap</h6>
+
+														</div>
+														<div class="col-sm-12 col-md-2 text-center">
+																	<img src="images/sass.png" alt="" class="img-fluid maxxing">
+																	<br>
+																	<h6>SASS</h6>
+														</div>
+
+													</div>
+											</div>
+										</div>
+
+										<div class="card card-skills">
+													<h2 class="card-header">Javascript</h2>
+											<div class="card-body ">
+
+												<div class="row">
+													<div class="col-sm-12 col-md-2 text-center">
+															<img src="images/javascript-logo2.png" alt="" class="img-fluid maxxing">
+															<br>
+															<h6>Javascript</h6>
+													</div>
+													<div class="col-sm-12 col-md-2 text-center">
+															<img src="images/jquery.png" alt="" class="img-fluid maxxing">
+															<h6>Jquery</h6>
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+										<div class="card card-skills">
+											<h2 class="card-header">Back-End</h2>
+											<div class="card-body">
+
+												<div class="row">
+													<div class="col-sm-12 col-md-2 text-center">
+															<img src="images/php-logo.png" alt="" class="img-fluid maxxing">
+															<h6>PHP</h6>
+
+													</div>
+													<div class="col-sm-12 col-md-2 text-center">
+														<img src="images/yii2.png" alt="" class="img-fluid maxxing">
+														<h6>Yii2</h6>
+
+													</div>
+
+
+													<div class="col-sm-12 col-md-2 text-center">
+														<img src="images/mysql.png" alt="" class="img-fluid maxxing">
+														<h6>Mysql</h6>
+
+													</div>
+
+												</div>
+
+											</div>
+										</div>
+
+										<div class="card card-skills">
+											<h2 class="card-header">CMS</h2>
+											<div class="card-body">
+
+												<div class="row">
+													<div class="col-sm-12 col-md-2 text-center">
+																<img src="images/wordpress.png" alt="" class="img-fluid maxxing">
+																<h6>Wordpress</h6>
+
+													</div>
+												</div>
+
+
+
+
+											</div>
+										</div>
+
+										<div class="card card-skills">
+											<h2 class="card-header">Others</h2>
+											<div class="card-body">
+
+												<div class="row">
+													<div class="col-sm-12 col-md-2 text-center">
+																<img src="images/github.svg" alt="" class="img-fluid maxxing">
+																<h6>Github</h6>
+
+													</div>
+												</div>
+
+											</div>
+										</div>
+
+
+
+
+									</div>
+							</div>
+
+						</div>
+
+					</section>
+
+
+
+						<footer id="footers">
+							<div class="container">
+								<div class="text-center">
+									<p>
+										<h1>THANKS!</h1>
+									</p>
+									<p>
+										<h3>Need something from me?</h3>
+									</p>
+									<div class="email-links">
+										<a href="mailto:eumerjoseph.ramos@yahoo.com" class="btn btn-outline-secondary">
+											<i class="fas fa-envelope-square"></i>
+											Contact Me
+										</a>
+									</div>
+									<ul id="secondary-link">
+										<li>
+											<a href="https://github.com/Eumaser" class="btn btn-outline-secondary" target="_blank">
+												<i class="fab fa-github"></i>
+
+											</a>
+										</li>
+										<li>
+											<a href="https://www.linkedin.com/in/eumerjoseph-ramos-80589a72/" class="btn btn-outline-secondary" target="_blank">
+												<i class="fab fa-linkedin"></i>
+
+											</a>
+										</li>
+									</ul>
+									<p>
+										&copy 2018 EDR
+									</p>
+
+								</div>
+							</div>
+
+						</footer>
+
+						<select class="" name="">
+							<option value=""></option>
+						</select>
+
+
+
+<select name="select1" id="select1">
+  <option value="1">Fruit</option>
+  <option value="2">Animal</option>
+  <option value="3">Bird</option>
+  <option value="4">Car</option>
+</select>
+
+
+<select name="select2" id="select2">
+  <option value="1">Banana</option>
+  <option value="1">Apple</option>
+  <option value="1">Orange</option>
+  <option value="2">Wolf</option>
+  <option value="2">Fox</option>
+  <option value="2">Bear</option>
+  <option value="3">Eagle</option>
+  <option value="3">Hawk</option>
+  <option value="4">BWM<option>
+</select>
+
+
+<script>
+
+</script>
+
 	</body>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+
+
 </html>
